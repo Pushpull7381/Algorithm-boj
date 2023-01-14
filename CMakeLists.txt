@@ -9,4 +9,5 @@ add_executable(Algorithm_boj
         #13913.cpp
         #1259.cpp
         #2573.cpp
-        2583.cpp)
+        #2583.cpp
+        5427.cpp)
