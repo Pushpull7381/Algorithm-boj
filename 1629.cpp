@@ -1,18 +1,17 @@
-#include "bits/stdc++.h"
+#include <bits/stdc++.h>
 using namespace std;
-
-long long pow(long long a, long long b, long long m) {
-    if(b == 1) return a % m;
-    long long val = pow(a, b/2, m);
-    val = val * val % m;
+//TODO: A^B % c
+long long A,B,C;
+long long func1(long long a, long long b, long long c) {
+    if(b == 1) return A%C;
+    long long val = func1(a, b/2, c);
+    val = val * val % c;
     if(b%2 == 0) return val;
-    return val * a % m;
+    return val * a % c;
 }
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
-    long long a, b, c;
-    cin >> a >> b >> c;
-    cout << pow(a,b,c);
+    cin >> A >> B >> C;
+    cout << func1(A, B, C);
 }
-
