@@ -3,7 +3,8 @@ using namespace std;
 
 int n, m;
 vector<int> v;
-int arr[19];
+int arr[10];
+bool visited[10];
 
 void func(int cnt) {
     if(cnt == m) {
@@ -12,11 +13,15 @@ void func(int cnt) {
         cout << '\n';
         return;
     }
+    int val = 0;
     for(int i=0;i<v.size();i++) {
-
-        arr[cnt] = v[i];
-        func(cnt+1);
-
+        if(!visited[i] && v[i] != val) {
+            arr[cnt] = v[i];
+            val = arr[cnt];
+            visited[i] = 1;
+            func(cnt + 1);
+            visited[i] = 0;
+        }
     }
 }
 int main() {
@@ -29,7 +34,5 @@ int main() {
         v.push_back(l);
     }
     sort(v.begin(),v.end());
-
-
     func(0);
 }
