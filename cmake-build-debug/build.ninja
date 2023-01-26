@@ -78,6 +78,12 @@ build CMakeFiles/Algorithm_boj.dir/15664.cpp.o: CXX_COMPILER__Algorithm_boj_Debu
   OBJECT_DIR = CMakeFiles/Algorithm_boj.dir
   OBJECT_FILE_DIR = CMakeFiles/Algorithm_boj.dir
 
+build CMakeFiles/Algorithm_boj.dir/15683.cpp.o: CXX_COMPILER__Algorithm_boj_Debug /Users/push/Documents/GitHub/Algorithm-boj/15683.cpp || cmake_object_order_depends_target_Algorithm_boj
+  DEP_FILE = CMakeFiles/Algorithm_boj.dir/15683.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Algorithm_boj.dir
+  OBJECT_FILE_DIR = CMakeFiles/Algorithm_boj.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Algorithm_boj
@@ -86,7 +92,7 @@ build CMakeFiles/Algorithm_boj.dir/15664.cpp.o: CXX_COMPILER__Algorithm_boj_Debu
 #############################################
 # Link the executable Algorithm_boj
 
-build Algorithm_boj: CXX_EXECUTABLE_LINKER__Algorithm_boj_Debug CMakeFiles/Algorithm_boj.dir/15664.cpp.o
+build Algorithm_boj: CXX_EXECUTABLE_LINKER__Algorithm_boj_Debug CMakeFiles/Algorithm_boj.dir/15664.cpp.o CMakeFiles/Algorithm_boj.dir/15683.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
   OBJECT_DIR = CMakeFiles/Algorithm_boj.dir
   POST_BUILD = :
