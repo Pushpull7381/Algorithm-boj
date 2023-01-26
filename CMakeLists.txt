@@ -30,4 +30,4 @@ add_executable(Algorithm_boj
         #15656.cpp
         #15657.cpp
         #15663.cpp
-        15664.cpp 15683.cpp)
+        15664.cpp 15683.cpp test.cpp)
