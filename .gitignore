@@ -1,101 +1,92 @@
-### C++ template
-# Prerequisites
-*.d
+# Created by https://www.toptal.com/developers/gitignore/api/clion+all
+# Edit at https://www.toptal.com/developers/gitignore?templates=clion+all
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+### CLion+all ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
-# Precompiled Headers
-*.gch
-*.pch
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# AWS User-specific
+.idea/**/aws.xml
 
-# Fortran module files
-*.mod
-*.smod
+# Generated files
+.idea/**/contentModel.xml
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
 
-# Executables
-*.exe
-*.out
-*.app
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
 
-### C template
-# Prerequisites
-*.d
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/artifacts
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# CMake
+cmake-build-*/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
 
-# Precompiled Headers
-*.gch
-*.pch
+# File-based project format
+*.iws
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# IntelliJ
+out/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# mpeltonen/sbt-idea plugin
+.idea_modules/
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# JIRA plugin
+atlassian-ide-plugin.xml
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Cursive Clojure plugin
+.idea/replstate.xml
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# SonarLint plugin
+.idea/sonarlint/
 
-### CMake template
-CMakeLists.txt.user
-CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
-Makefile
-cmake_install.cmake
-install_manifest.txt
-compile_commands.json
-CTestTestfile.cmake
-_deps
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
 
+# Editor-based Rest Client
+.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
+
+### CLion+all Patch ###
+# Ignore everything but code style settings and run configurations
+# that are supposed to be shared within teams.
+
+.idea/*
+
+!.idea/codeStyles
+!.idea/runConfigurations
+
+# End of https://www.toptal.com/developers/gitignore/api/clion+all
