@@ -48,6 +48,7 @@
 cmake-build-*/
 CMakeLists.txt
 .idea
+.DS_Store
 
 # Mongo Explorer plugin
 .idea/**/mongoSettings.xml
