@@ -46,7 +46,7 @@
 
 # CMake
 cmake-build-*/
-CMakeLists.txt
+#CMakeLists.txt
 .idea
 .DS_Store
 
