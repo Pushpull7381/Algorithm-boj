@@ -32,7 +32,7 @@ add_executable(Algorithm_boj
         #15663.cpp
         #15664.cpp
         #15683.cpp????
-        #6603.cpp
+        6603.cpp
         #1759.cpp
-        1941.cpp
+        #1941.cpp
         )
